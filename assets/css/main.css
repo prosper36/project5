@@ -1,0 +1,136 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 20px 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    text-decoration: underline;   
+}
+
+.login {
+    border: 3px solid black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    word-spacing: 5px;
+}
+
+.signup {
+    background-color: rgb(79, 79, 225);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.writeup {
+    margin: 20px 30px;
+}
+
+.image {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    top: -80px;
+    right: -60px;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto
+}
+
+.search {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: -20px;
+}
+
+.get {
+    margin: 70px 0;
+    border-radius: 30px;
+    padding: 15px;
+    align-self: center;
+    width: 190px;
+    background-color: rgb(18, 191, 18);
+    border: hidden;
+    box-shadow: 7px 7px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    gap: 20px;
+    border: 3px solid;
+    padding: 0px 0px 35px 0px;
+    border-radius: 30px;
+    box-shadow: 7px 7px;
+}
+
+.dog {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.animal {
+    display: block;
+    position: relative;
+    bottom: -25px;
+    line-height: 40px;
+}
+
+span {
+    font-weight: 400;
+}
+
+h3 {
+    margin-top: -20px  ;
+    margin-bottom: 5px;
+
+}
+
+.button {
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 7px;
+    align-self: center;
+    width: 120px;
+    background-color: rgb(18, 191, 18);
+    color: white;
+    border: hidden;
+    font-size: 15px;
+    font-weight: 700;
+
+}
